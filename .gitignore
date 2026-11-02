@@ -1,0 +1,30 @@
+# ==========================================
+# HemoDyn-AI v2 .gitignore
+# ==========================================
+
+# Operating System & IDE
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python Virtual Environments & Packages
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*

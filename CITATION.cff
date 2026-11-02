@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, surrogate model, or dataset in your research, please cite it as below."
+title: "HemoDyn-AI v2: Physics-Guided Machine Learning Surrogates for 3D Arterial Stenosis Hemodynamics"
+version: 2.0.0
+date-released: 2026-11-01
+url: "https://github.com/z5rcnws7bz-eng/HemoDyn-Ai-v2"
+repository-code: "https://github.com/z5rcnws7bz-eng/HemoDyn-Ai-v2"
+license: MIT
+authors:
+  - family-names: "Roman"
+    given-names: "Jace E."
+    affiliation: "Temple University, Philadelphia, PA, USA"
+    email: "jace.roman@temple.edu"
+keywords:
+  - hemodynamics
+  - computational-fluid-dynamics
+  - physics-guided-machine-learning
+  - arterial-stenosis
+  - simvascular
+  - finite-element-method
+  - wall-shear-stress
+  - surrogate-modeling
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Roman"
+      given-names: "Jace E."
+      affiliation: "Temple University"
+  title: "HemoDyn-AI: Physics-Guided Residual Machine Learning Surrogates for 3D Hemodynamics in Constricted Arterial Geometries"
+  year: 2026
+  institution: "Temple University"
