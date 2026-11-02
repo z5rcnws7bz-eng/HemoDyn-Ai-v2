@@ -11,7 +11,7 @@ Developed by **Jace E. Roman** at **Temple University** (Philadelphia, PA).
 
 ---
 
-## 🌟 Highlights
+## Highlights
 
 - **Physics-Guided Residual Surrogate**: Rather than predicting velocity with unconstrained black-box regression, HemoDyn-AI learns the physical discrepancy residual $\Delta u(\mathbf{x}) = u_{\text{CFD}}(\mathbf{x}) - u_{\text{physics}}(\mathbf{x})$ anchored to an analytical mass-conserving Poiseuille/continuity prior.
 - **71.4% Throat Error Reduction**: In the high-gradient stenosis constriction ($z \in [55, 65]\text{ mm}$), geometry-only ML exhibits $131.52\text{ mm/s}$ RMSE. Physics-guided ML cuts throat error to **$37.55\text{ mm/s}$ RMSE** ($23.66\text{ mm/s}$ MAE).
@@ -20,7 +20,7 @@ Developed by **Jace E. Roman** at **Temple University** (Philadelphia, PA).
 
 ---
 
-## 📊 Benchmark Overview
+## Benchmark Overview
 
 ```mermaid
 flowchart LR
@@ -54,7 +54,7 @@ flowchart LR
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 HemoDyn-Ai-v2/
@@ -95,7 +95,7 @@ HemoDyn-Ai-v2/
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ### 1. Installation
 
@@ -129,7 +129,7 @@ jupyter notebook notebooks/
 
 ---
 
-## 📖 Citation
+##  Citation
 
 If you use this benchmark, surrogate model, or dataset in your research, please cite:
 
@@ -145,7 +145,7 @@ If you use this benchmark, surrogate model, or dataset in your research, please 
 
 ---
 
-## 👤 Author & Affiliation
+##  Author & Affiliation
 
 - **Jace E. Roman**
 - Temple University, Philadelphia, PA, USA
