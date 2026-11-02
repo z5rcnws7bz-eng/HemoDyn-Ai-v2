@@ -117,3 +117,4 @@ def compute_womersley_number(
     omega = 2.0 * np.pi * (heart_rate_bpm / 60.0)
     mu_local = mu * 1e-3
     return float(radius * np.sqrt(omega * rho / mu_local))
+

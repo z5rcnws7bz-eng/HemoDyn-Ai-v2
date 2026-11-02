@@ -60,3 +60,4 @@ def plot_cross_geometry_comparison(
     if output_path:
         fig.savefig(output_path)
     return fig
+

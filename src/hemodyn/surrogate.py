@@ -158,3 +158,4 @@ class GeometryOnlySurrogate:
         instance.estimator = joblib.load(filepath)
         instance.is_fitted_ = True
         return instance
+
